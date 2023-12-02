@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+/*fonts 300, 600*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;  
+}
+
+body{
+    /* background:url("https://source.unsplash.com/1600x900/?landscape"); */
+    background-color:rgb(18, 33, 43);
+
+}
+
+header{
+    background-color:rgb(243, 52, 52);
+    display:flex;
+    justify-content:center;
+}
+
+h1{
+background-color:rgb(45, 105, 43);
+text-align:center;
+color:#fff;
+width:500px;
+height:50px;;
+/* border:1px solid #fff; */
+   
+}
+
+
+/** stye to the container Button**/
+.container-buttons{
+    margin:30px 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+/**  Style to the cursor**/
+button{
+    font-size:15px;
+    cursor:pointer;
+    padding:5px;
+    border:none;
+    font-weight:bold;
+    background-color:#19cb15;
+    border-radius:10px;
+    width:110px;
+}
+
+button:hover{
+    opacity:0.8;
+    background-color:rgb(245, 115, 234);
+    color:#000;
+    /* font-size:14px; */
+}
+
+button:active{
+    opacity:1.0;
+    background-color:yellow;
+}
+
+/** style to the ul**/
+ul{
+    /* border:2px solid #fff; */
+    /* background-color:rgb(5, 5, 5); */
+
+    list-style:none; /*style da lista tio (*)*/
+    display:grid;
+    grid-template-columns:280px 280px 280px;
+    gap:20px;
+    justify-content:center;
+}
+
+li{
+    border:2px solid #8133ff;
+    border-radius:5px;
+    padding:5px;
+    /* margin-bottom:15px; */
+}
+
+img{
+    border-radius:5px;
+    width:100%;
+    height:80%;
+    
+}
+
+p{
+    color:#fff;
+    font-size:18px;
+}
+
+.item-price{
+    font-size:18px;
+    color:#e9ec12;
+}
